@@ -1,0 +1,113 @@
+
+body {
+  background-image: url("images/equality.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="text"], input[type="password"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Specific Styles */
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#intro {
+  margin-top: 50px;
+  text-align: justify;
+}
+
+#login-form {
+  margin-bottom: 50px;
+}
+
+.input-container {
+  position: fixed;
+}
+
+.youtube {
+
+    background-image: url('images/image2.png');
+    background-repeat: no-repeat;
+    background-position: -93px -230px;
+    width: 52px;
+    height: 52px;
+    float: right;
+  }
+
+  .youtube:hover {
+    background-image: url('images/image2.png');
+    background-repeat: no-repeat;
+    background-position: -93px -98px;
+    width: 52px;
+    height: 52px;
+    float: right;
+  }
+
+  .facebook {
+    background-image: url('images/image2.png');
+    background-position: -93px -170px; 
+    width: 52px;
+    height: 52px;
+    float: right;
+  }
+   .facebook:hover {
+    background-image: url('images/image2.png');
+    background-position: -93px -38px; 
+    width: 52px;
+    height: 52px;
+    float: right;
+  }
+
+  footer {
+		float: left;
+	}
+
